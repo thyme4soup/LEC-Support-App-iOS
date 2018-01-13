@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4FF3431F94628000321E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2486B6B1EE9B65F00B100FA /* Assets.xcassets */; };
+		4C4FF3441F94628100321E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2486B6B1EE9B65F00B100FA /* Assets.xcassets */; };
+		4CD6990E2009C224004354BB /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6990D2009C224004354BB /* UserInfoViewController.swift */; };
+		C20BE5171EFAEC2C0057B3EF /* SupportRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BE5161EFAEC2C0057B3EF /* SupportRequestViewController.swift */; };
+		C20BE5191EFB1D310057B3EF /* ImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BE5181EFB1D310057B3EF /* ImageTableViewController.swift */; };
+		C20BE51B1EFB1F940057B3EF /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BE51A1EFB1F940057B3EF /* ImageItem.swift */; };
+		C20BE51D1EFC33F10057B3EF /* ImagePickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BE51C1EFC33F10057B3EF /* ImagePickViewController.swift */; };
+		C2486B651EE9B65F00B100FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B641EE9B65F00B100FA /* AppDelegate.swift */; };
+		C2486B671EE9B65F00B100FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B661EE9B65F00B100FA /* ViewController.swift */; };
+		C2486B6A1EE9B65F00B100FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2486B681EE9B65F00B100FA /* Main.storyboard */; };
+		C2486B6C1EE9B65F00B100FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2486B6B1EE9B65F00B100FA /* Assets.xcassets */; };
+		C2486B6F1EE9B65F00B100FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2486B6D1EE9B65F00B100FA /* LaunchScreen.storyboard */; };
+		C2486B7A1EE9B65F00B100FA /* LEC_Service_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B791EE9B65F00B100FA /* LEC_Service_AppTests.swift */; };
+		C2486B851EE9B65F00B100FA /* LEC_Service_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B841EE9B65F00B100FA /* LEC_Service_AppUITests.swift */; };
+		C2486B931EE9C80B00B100FA /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B921EE9C80B00B100FA /* ProductsTableViewController.swift */; };
+		C2486B951EE9C83000B100FA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B941EE9C83000B100FA /* Product.swift */; };
+		C2486B971EEA077A00B100FA /* UserInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B961EEA077A00B100FA /* UserInfoTableViewController.swift */; };
+		C2486B991EEB277400B100FA /* InfoField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B981EEB277400B100FA /* InfoField.swift */; };
+		C2486B9D1EEF01B900B100FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B9C1EEF01B900B100FA /* User.swift */; };
+		C2486B9F1EEF198300B100FA /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486B9E1EEF198300B100FA /* ProductsViewController.swift */; };
+		C2486BA11EEF3AEF00B100FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486BA01EEF3AEF00B100FA /* WebView.swift */; };
+		C2486BA31EEF4CFB00B100FA /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486BA21EEF4CFB00B100FA /* ScannerViewController.swift */; };
+		C2486BA51EF066FE00B100FA /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486BA41EF066FE00B100FA /* EmailViewController.swift */; };
+		C2486BA71EF0743600B100FA /* ProductLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2486BA61EF0743600B100FA /* ProductLookup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2486B761EE9B65F00B100FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2486B591EE9B65F00B100FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2486B601EE9B65F00B100FA;
+			remoteInfo = "LEC Service App";
+		};
+		C2486B811EE9B65F00B100FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2486B591EE9B65F00B100FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2486B601EE9B65F00B100FA;
+			remoteInfo = "LEC Service App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CD6990D2009C224004354BB /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		C20BE5161EFAEC2C0057B3EF /* SupportRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportRequestViewController.swift; sourceTree = "<group>"; };
+		C20BE5181EFB1D310057B3EF /* ImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewController.swift; sourceTree = "<group>"; };
+		C20BE51A1EFB1F940057B3EF /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		C20BE51C1EFC33F10057B3EF /* ImagePickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickViewController.swift; sourceTree = "<group>"; };
+		C2486B611EE9B65F00B100FA /* LEC Support App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LEC Support App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2486B641EE9B65F00B100FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2486B661EE9B65F00B100FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2486B691EE9B65F00B100FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2486B6B1EE9B65F00B100FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2486B6E1EE9B65F00B100FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2486B701EE9B65F00B100FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2486B751EE9B65F00B100FA /* LEC Support AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEC Support AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2486B791EE9B65F00B100FA /* LEC_Service_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEC_Service_AppTests.swift; sourceTree = "<group>"; };
+		C2486B7B1EE9B65F00B100FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2486B801EE9B65F00B100FA /* LEC Support AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEC Support AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2486B841EE9B65F00B100FA /* LEC_Service_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEC_Service_AppUITests.swift; sourceTree = "<group>"; };
+		C2486B861EE9B65F00B100FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2486B921EE9C80B00B100FA /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		C2486B941EE9C83000B100FA /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C2486B961EEA077A00B100FA /* UserInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewController.swift; sourceTree = "<group>"; };
+		C2486B981EEB277400B100FA /* InfoField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoField.swift; sourceTree = "<group>"; };
+		C2486B9C1EEF01B900B100FA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C2486B9E1EEF198300B100FA /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		C2486BA01EEF3AEF00B100FA /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C2486BA21EEF4CFB00B100FA /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		C2486BA41EF066FE00B100FA /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		C2486BA61EF0743600B100FA /* ProductLookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLookup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2486B5E1EE9B65F00B100FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2486B721EE9B65F00B100FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2486B7D1EE9B65F00B100FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2486B581EE9B65F00B100FA = {
+			isa = PBXGroup;
+			children = (
+				C2486B631EE9B65F00B100FA /* LEC Support App */,
+				C2486B781EE9B65F00B100FA /* LEC Support AppTests */,
+				C2486B831EE9B65F00B100FA /* LEC Support AppUITests */,
+				C2486B621EE9B65F00B100FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2486B621EE9B65F00B100FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2486B611EE9B65F00B100FA /* LEC Support App.app */,
+				C2486B751EE9B65F00B100FA /* LEC Support AppTests.xctest */,
+				C2486B801EE9B65F00B100FA /* LEC Support AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2486B631EE9B65F00B100FA /* LEC Support App */ = {
+			isa = PBXGroup;
+			children = (
+				C2486B641EE9B65F00B100FA /* AppDelegate.swift */,
+				C2486B661EE9B65F00B100FA /* ViewController.swift */,
+				C2486B681EE9B65F00B100FA /* Main.storyboard */,
+				C20BE51C1EFC33F10057B3EF /* ImagePickViewController.swift */,
+				C20BE5181EFB1D310057B3EF /* ImageTableViewController.swift */,
+				C20BE51A1EFB1F940057B3EF /* ImageItem.swift */,
+				C2486B921EE9C80B00B100FA /* ProductsTableViewController.swift */,
+				C2486B9E1EEF198300B100FA /* ProductsViewController.swift */,
+				C2486B941EE9C83000B100FA /* Product.swift */,
+				C2486B6B1EE9B65F00B100FA /* Assets.xcassets */,
+				C2486B6D1EE9B65F00B100FA /* LaunchScreen.storyboard */,
+				C2486B701EE9B65F00B100FA /* Info.plist */,
+				C2486B961EEA077A00B100FA /* UserInfoTableViewController.swift */,
+				4CD6990D2009C224004354BB /* UserInfoViewController.swift */,
+				C2486B981EEB277400B100FA /* InfoField.swift */,
+				C2486B9C1EEF01B900B100FA /* User.swift */,
+				C2486BA01EEF3AEF00B100FA /* WebView.swift */,
+				C2486BA21EEF4CFB00B100FA /* ScannerViewController.swift */,
+				C2486BA41EF066FE00B100FA /* EmailViewController.swift */,
+				C2486BA61EF0743600B100FA /* ProductLookup.swift */,
+				C20BE5161EFAEC2C0057B3EF /* SupportRequestViewController.swift */,
+			);
+			name = "LEC Support App";
+			path = "LEC Service App";
+			sourceTree = "<group>";
+		};
+		C2486B781EE9B65F00B100FA /* LEC Support AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2486B791EE9B65F00B100FA /* LEC_Service_AppTests.swift */,
+				C2486B7B1EE9B65F00B100FA /* Info.plist */,
+			);
+			name = "LEC Support AppTests";
+			path = "LEC Service AppTests";
+			sourceTree = "<group>";
+		};
+		C2486B831EE9B65F00B100FA /* LEC Support AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2486B841EE9B65F00B100FA /* LEC_Service_AppUITests.swift */,
+				C2486B861EE9B65F00B100FA /* Info.plist */,
+			);
+			name = "LEC Support AppUITests";
+			path = "LEC Service AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2486B601EE9B65F00B100FA /* LEC Support App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2486B891EE9B65F00B100FA /* Build configuration list for PBXNativeTarget "LEC Support App" */;
+			buildPhases = (
+				C2486B5D1EE9B65F00B100FA /* Sources */,
+				C2486B5E1EE9B65F00B100FA /* Frameworks */,
+				C2486B5F1EE9B65F00B100FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LEC Support App";
+			productName = "LEC Service App";
+			productReference = C2486B611EE9B65F00B100FA /* LEC Support App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2486B741EE9B65F00B100FA /* LEC Support AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2486B8C1EE9B65F00B100FA /* Build configuration list for PBXNativeTarget "LEC Support AppTests" */;
+			buildPhases = (
+				C2486B711EE9B65F00B100FA /* Sources */,
+				C2486B721EE9B65F00B100FA /* Frameworks */,
+				C2486B731EE9B65F00B100FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2486B771EE9B65F00B100FA /* PBXTargetDependency */,
+			);
+			name = "LEC Support AppTests";
+			productName = "LEC Service AppTests";
+			productReference = C2486B751EE9B65F00B100FA /* LEC Support AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2486B7F1EE9B65F00B100FA /* LEC Support AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2486B8F1EE9B65F00B100FA /* Build configuration list for PBXNativeTarget "LEC Support AppUITests" */;
+			buildPhases = (
+				C2486B7C1EE9B65F00B100FA /* Sources */,
+				C2486B7D1EE9B65F00B100FA /* Frameworks */,
+				C2486B7E1EE9B65F00B100FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2486B821EE9B65F00B100FA /* PBXTargetDependency */,
+			);
+			name = "LEC Support AppUITests";
+			productName = "LEC Service AppUITests";
+			productReference = C2486B801EE9B65F00B100FA /* LEC Support AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2486B591EE9B65F00B100FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Living Earth Crafts";
+				TargetAttributes = {
+					C2486B601EE9B65F00B100FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LN35AURNL8;
+						ProvisioningStyle = Automatic;
+					};
+					C2486B741EE9B65F00B100FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H86WSJGYSW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2486B601EE9B65F00B100FA;
+					};
+					C2486B7F1EE9B65F00B100FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H86WSJGYSW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2486B601EE9B65F00B100FA;
+					};
+				};
+			};
+			buildConfigurationList = C2486B5C1EE9B65F00B100FA /* Build configuration list for PBXProject "lec support app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2486B581EE9B65F00B100FA;
+			productRefGroup = C2486B621EE9B65F00B100FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2486B601EE9B65F00B100FA /* LEC Support App */,
+				C2486B741EE9B65F00B100FA /* LEC Support AppTests */,
+				C2486B7F1EE9B65F00B100FA /* LEC Support AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2486B5F1EE9B65F00B100FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2486B6F1EE9B65F00B100FA /* LaunchScreen.storyboard in Resources */,
+				C2486B6C1EE9B65F00B100FA /* Assets.xcassets in Resources */,
+				C2486B6A1EE9B65F00B100FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2486B731EE9B65F00B100FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4FF3431F94628000321E29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2486B7E1EE9B65F00B100FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4FF3441F94628100321E29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2486B5D1EE9B65F00B100FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2486B991EEB277400B100FA /* InfoField.swift in Sources */,
+				C20BE51D1EFC33F10057B3EF /* ImagePickViewController.swift in Sources */,
+				C2486BA11EEF3AEF00B100FA /* WebView.swift in Sources */,
+				C2486BA71EF0743600B100FA /* ProductLookup.swift in Sources */,
+				C2486B971EEA077A00B100FA /* UserInfoTableViewController.swift in Sources */,
+				C2486B931EE9C80B00B100FA /* ProductsTableViewController.swift in Sources */,
+				C2486B9D1EEF01B900B100FA /* User.swift in Sources */,
+				C2486B951EE9C83000B100FA /* Product.swift in Sources */,
+				C2486BA51EF066FE00B100FA /* EmailViewController.swift in Sources */,
+				4CD6990E2009C224004354BB /* UserInfoViewController.swift in Sources */,
+				C2486B9F1EEF198300B100FA /* ProductsViewController.swift in Sources */,
+				C20BE5191EFB1D310057B3EF /* ImageTableViewController.swift in Sources */,
+				C2486B671EE9B65F00B100FA /* ViewController.swift in Sources */,
+				C20BE51B1EFB1F940057B3EF /* ImageItem.swift in Sources */,
+				C2486BA31EEF4CFB00B100FA /* ScannerViewController.swift in Sources */,
+				C20BE5171EFAEC2C0057B3EF /* SupportRequestViewController.swift in Sources */,
+				C2486B651EE9B65F00B100FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2486B711EE9B65F00B100FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2486B7A1EE9B65F00B100FA /* LEC_Service_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2486B7C1EE9B65F00B100FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2486B851EE9B65F00B100FA /* LEC_Service_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2486B771EE9B65F00B100FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2486B601EE9B65F00B100FA /* LEC Support App */;
+			targetProxy = C2486B761EE9B65F00B100FA /* PBXContainerItemProxy */;
+		};
+		C2486B821EE9B65F00B100FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2486B601EE9B65F00B100FA /* LEC Support App */;
+			targetProxy = C2486B811EE9B65F00B100FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2486B681EE9B65F00B100FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2486B691EE9B65F00B100FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2486B6D1EE9B65F00B100FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2486B6E1EE9B65F00B100FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2486B871EE9B65F00B100FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2486B881EE9B65F00B100FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2486B8A1EE9B65F00B100FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN35AURNL8;
+				INFOPLIST_FILE = "LEC Service App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthlite.lecsupportapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2486B8B1EE9B65F00B100FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN35AURNL8;
+				INFOPLIST_FILE = "LEC Service App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthlite.lecsupportapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2486B8D1EE9B65F00B100FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H86WSJGYSW;
+				INFOPLIST_FILE = "LEC Service AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LEC.LEC-Service-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEC Support App.app/LEC Support App";
+			};
+			name = Debug;
+		};
+		C2486B8E1EE9B65F00B100FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H86WSJGYSW;
+				INFOPLIST_FILE = "LEC Service AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LEC.LEC-Service-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEC Support App.app/LEC Support App";
+			};
+			name = Release;
+		};
+		C2486B901EE9B65F00B100FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H86WSJGYSW;
+				INFOPLIST_FILE = "LEC Service AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LEC.LEC-Service-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LEC Service App";
+			};
+			name = Debug;
+		};
+		C2486B911EE9B65F00B100FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H86WSJGYSW;
+				INFOPLIST_FILE = "LEC Service AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LEC.LEC-Service-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LEC Service App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2486B5C1EE9B65F00B100FA /* Build configuration list for PBXProject "lec support app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2486B871EE9B65F00B100FA /* Debug */,
+				C2486B881EE9B65F00B100FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2486B891EE9B65F00B100FA /* Build configuration list for PBXNativeTarget "LEC Support App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2486B8A1EE9B65F00B100FA /* Debug */,
+				C2486B8B1EE9B65F00B100FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2486B8C1EE9B65F00B100FA /* Build configuration list for PBXNativeTarget "LEC Support AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2486B8D1EE9B65F00B100FA /* Debug */,
+				C2486B8E1EE9B65F00B100FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2486B8F1EE9B65F00B100FA /* Build configuration list for PBXNativeTarget "LEC Support AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2486B901EE9B65F00B100FA /* Debug */,
+				C2486B911EE9B65F00B100FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2486B591EE9B65F00B100FA /* Project object */;
+}
